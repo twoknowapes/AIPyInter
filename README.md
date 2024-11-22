@@ -1,4 +1,4 @@
-#### Miniconda
+### Miniconda
 * [Download Now](https://www.anaconda.com/download/success)
 
   ```
@@ -31,7 +31,7 @@
 
   [Python 3.13.0 documentation](https://docs.python.org/3.13/index.html)
 
-#### Cursor
+### Cursor
 
 * [Download Now](https://www.cursor.com/)
   
