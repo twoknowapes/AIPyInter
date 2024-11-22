@@ -1,10 +1,10 @@
 ###### Miniconda
 * [Download Now](https://www.anaconda.com/download/success)
-```
-conda update conda
-conda list
-conda env list
-```
+  ```
+  conda update conda
+  conda list
+  conda env list
+  ```
   
 * 创建虚拟环境并安装软件包
 
