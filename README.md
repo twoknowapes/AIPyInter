@@ -37,60 +37,41 @@
   
   * File > Prefereces > VS Code Settings > workbench.activityBar.orientation > vertical
   * File > Prefereces > Cursor Settings > General > Rules for AI
-
-  File > Prefereces > Cursor Settings > Models > Model Names
-    
-  File > Prefereces > Cursor Settings > Features > Codebase indexing
-     
-  File > Prefereces > Cursor Settings > Features > Docs
+  * File > Prefereces > Cursor Settings > Models > Model Names
+  * File > Prefereces > Cursor Settings > Features > Codebase indexing
+  * File > Prefereces > Cursor Settings > Features > Docs
 
 * LLM Extensions
 
-  Github Copilot
-
-  MarsCode AI
-
-  Raccoon
-
-  TONGYI Lingma
+    * Github Copilot
+    * MarsCode AI
+    * Raccoon
+    * TONGYI Lingma
 
 * Chat(Ctrl/⌘+L)
 
-  主要负责通用问题的解决
-
-  针对更宽泛的代码问题进行对话/多轮对话
-
-  对话小技巧
-
-    @ 上下文引用
-
-    @Web 搜索互联网
-
-    Ctrl/⌘+Enter 搜索整个代码库
-
-    直接粘贴图片
+  * 主要负责通用问题的解决
+  * 针对更宽泛的代码问题进行对话/多轮对话
+  * 对话小技巧
+    * @ 上下文引用
+    * @Web 搜索互联网
+    * Ctrl/⌘+Enter 搜索整个代码库
+    * 直接粘贴图片
 
 * Edit(Ctrl/⌘+K)
 
-    代码生成和编辑
-
-    主要负责用来生成或修改局部的代码
-
-    提示栏分为两个类型：代码编辑提示栏 & 终端提示栏 
-
-    @注记
-
-      全局上下文
-
-        @Files：传递指定代码文件上下文
-
-        @Code：传递指定代码块（函数和类）上下文
-
-        @Docs：从官方文档获取上下文（需先在配置文件添加文档）
-
-        @Web：从搜索引擎结果获取上下文
-
-        @Folders：传递文件目录信息上下文
+  * 代码生成和编辑
+  * 主要负责用来生成或修改局部的代码
+  * 提示栏分为两个类型
+      * 代码编辑提示栏
+      * 终端提示栏 
+  * @注记
+    * 全局上下文
+      * @Files：传递指定代码文件上下文
+      * @Code：传递指定代码块（函数和类）上下文
+      * @Docs：从官方文档获取上下文（需先在配置文件添加文档）
+      * @Web：从搜索引擎结果获取上下文
+      * @Folders：传递文件目录信息上下文
 
       仅限代码生成窗口
 
