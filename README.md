@@ -85,7 +85,7 @@
 
 * Composer(Ctrl/⌘+I) 
 
-  File > Prefereces > Cursor Settings > Features > Composer > Enabled
+  * File > Prefereces > Cursor Settings > Features > Composer > Enabled
 
   * 主要特性
     * 多文件编辑
