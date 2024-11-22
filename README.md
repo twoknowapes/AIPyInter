@@ -1,5 +1,6 @@
 ###### Miniconda
 * [Download Now](https://www.anaconda.com/download/success)
+
   ```
   conda update conda
   conda list
@@ -24,18 +25,18 @@
 
 * 环境变量修改
 
-  export PATH=/path/to/python:$PATH
+  `export PATH=/path/to/python:$PATH`
 
 * 重要文档
+
   [Python 3.13.0 documentation](https://docs.python.org/3.13/index.html)
 
 ###### Cursor
 
 * Download Now
   
-  File > Prefereces > VS Code Settings > workbench.activityBar.orientation > vertical
-
-  File > Prefereces > Cursor Settings > General > Rules for AI
+  * File > Prefereces > VS Code Settings > workbench.activityBar.orientation > vertical
+  * File > Prefereces > Cursor Settings > General > Rules for AI
 
   File > Prefereces > Cursor Settings > Models > Model Names
     
