@@ -16,7 +16,8 @@ def log_time(func):
         start_time = time.perf_counter()
         result = func(*args, **kwargs)
         end_time = time.perf_counter()
-        print(f"Executing {func.__name__} took {end_time - start_time:.4f} seconds to execute")
+        print(
+            f"Executing {func.__name__} took {end_time - start_time:.4f} seconds to execute")
         return result
     return wrapper
 
@@ -32,7 +33,8 @@ def log_args(func):
     """
     @wraps(func)
     def wrapper(*args, **kwargs):
-        print(f"Executing {func.__name__} with args: {args} and kwargs: {kwargs}")
+        print(
+            f"Executing {func.__name__} with args: {args} and kwargs: {kwargs}")
         return func(*args, **kwargs)
     return wrapper
 
@@ -41,16 +43,17 @@ def log_args(func):
 @log_args
 def calculate_sum(a, b, multiplier=1):
     """Calculate the sum of two numbers and multiply by a coefficient.
-    
+
     Args:
         a: First number to add
         b: Second number to add
         multiplier: Coefficient to multiply the sum by (default: 1)
-    
+
     Returns:
         The result of (a + b) * multiplier
     """
     time.sleep(0.1)
     return (a + b) * multiplier
+
 
 calculate_sum(1, 2, multiplier=2)

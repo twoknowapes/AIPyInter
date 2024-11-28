@@ -4,11 +4,12 @@ from functools import partial
 def custom_sort(iterable, key=None):
     # If the key is a string
     if isinstance(key, str):
-        key_func = lambda item: item[key]
+        def key_func(item): return item[key]
     # If the key is not a string
     else:
         key_func = key
     return sorted(iterable, key=key_func)
+
 
 custom_sort = partial(custom_sort)
 
